@@ -7,7 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: date
-    steps:
     - run: env | sort
   windows:
     runs-on: windows-latest
